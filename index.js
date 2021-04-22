@@ -27,7 +27,6 @@ function somarMedia(event) {
 
   const resultSum = document.createElement("h2");
   resultSum.classList.add("result-sum");
-  // resultSum.innerText = `${media}`;
   resultBox.appendChild(resultSum);
   resultSum.textContent = media;
 }
