@@ -7,7 +7,7 @@ const resultBox = document.querySelector(".resultado");
 
 const button = document.querySelector(".button");
 
-button.addEventListener("click", somarMedia);
+button.addEventListener("click", somarMedia, { once: true });
 
 function somarMedia(event) {
   event.preventDefault();
